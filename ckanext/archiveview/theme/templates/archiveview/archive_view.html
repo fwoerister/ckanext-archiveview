@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block page -%}
+{% if not bad_zip_file%}
+<div id="fileview">
+    <ul>
+        {% for key, value in file_tree_dict recursive %}
+        {% if value %}
+        <li data-jstree='{"opened": "True", "icon":"jstree-folder"}'>{{ key }}
+            <ul>{{ loop(value.items()) }}</ul>
+        </li>
+        {% else%}
+        <li data-jstree='{"icon":"jstree-file"}'>
+            {{ key }}
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% else %}
+<div class="alert alert-warning">
+    BadZipFile - The selected resource is not a valid .zip file
+</div>
+{% endif %}
+
+{% endblock %}
+
+{% block styles %}
+{% asset 'ckanext-archiveview/main' %}
+{% endblock %}

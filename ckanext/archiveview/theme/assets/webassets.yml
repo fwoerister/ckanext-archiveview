@@ -1,0 +1,15 @@
+main-css:
+  output: ckanext-archiveview/%(version)s_archive_view.css
+  contents:
+    - css/style.css
+    - css/archive_view.css
+
+main:
+  output: ckanext-archiveview/%(version)s_archive_view.js
+  extra:
+    preload:
+      - base/main
+      - ckanext-archiveview/main-css
+  contents:
+    - js/jstree.js
+    - js/archive_view.js

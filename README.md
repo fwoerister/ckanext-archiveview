@@ -1,6 +1,4 @@
 # CKAN Archive Resource View
-
-
 A ckan extension that provides a resource view for zipped archives
 
 ## Requirement
@@ -27,4 +25,4 @@ This CKAN extension is compatible with CKAN 2.9 and requires Python >3.6
 4) Restart CKAN
 
 ## Preview
-
+<img src="https://raw.githubusercontent.com/fwoerister/ckanext-archiveview/main/img/ckanext-archive.png"/>

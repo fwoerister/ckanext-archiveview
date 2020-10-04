@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/fwoerister/ckanext-archiveview.svg?branch=master)](https://travis-ci.org/fwoerister/ckanext-archiveview)
+[![PyPI version](https://badge.fury.io/py/ckanext-archiveview.svg)](https://badge.fury.io/py/ckanext-archiveview)
+[![Supported Python versions](https://pypip.in/py_versions/ckanext-archiveview/badge.svg)](https://pypi.python.org/pypi/ckanext-archiveview/)
+[![Development Status](https://pypip.in/status/ckanext-archiveview/badge.svg)](https://pypi.python.org/pypi/ckanext-archiveview/https://pypi.python.org
+
 # CKAN Archive Resource View
 <img src="https://raw.githubusercontent.com/fwoerister/ckanext-mongodatastore/master/images/TU_Signet_SW_rgb.png" align="right" width="150px"/>
 

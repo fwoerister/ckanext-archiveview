@@ -36,3 +36,7 @@ This CKAN extension is compatible with CKAN 2.9 and requires Python >3.6
 
 ## Preview
 <img src="https://raw.githubusercontent.com/fwoerister/ckanext-archiveview/main/img/ckanext-archive.png"/>
+
+## Contact
+
+Florian Wörister, TU Wien, florian.woerister[at]tuwien.ac.at

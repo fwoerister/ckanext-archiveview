@@ -6,41 +6,7 @@ from ckan import logic
 from ckan.lib import uploader
 from ckan.logic import get_action
 
-
-def add_dir_to_file_tree(file_tree, dir_path):
-    splitted_path = dir_path.split('/')
-
-    path = splitted_path[:-2]
-    new_dir = splitted_path[-2]
-
-    current_item = file_tree
-    for item in path:
-        current_item = current_item.get(item)
-
-    current_item[new_dir] = {}
-
-
-def add_file_to_file_tree(file_tree, dir_path):
-    splitted_path = dir_path.split('/')
-
-    path = splitted_path[:-1]
-    new_file = splitted_path[-1]
-
-    current_item = file_tree
-    for item in path:
-        current_item = current_item.get(item)
-
-    current_item[new_file] = None
-
-
-def zipfile_to_tree(zipfiles):
-    result = {}
-    for file in zipfiles:
-        if file.is_dir():
-            add_dir_to_file_tree(result, file.filename)
-        else:
-            add_file_to_file_tree(result, file.filename)
-    return result
+from ckanext.archiveview.archive_util import zipfile_to_tree
 
 
 @logic.side_effect_free

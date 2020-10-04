@@ -1,0 +1,13 @@
+dist: focal
+language: python
+python:
+  - "3.8.2"
+
+addons:
+  hosts:
+    - ckan
+
+install:
+  - sh bin/travis-build.sh
+
+script: sh bin/run-tests.sh

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fwoerister/ckanext-archiveview.svg?branch=master)](https://travis-ci.org/fwoerister/ckanext-archiveview)
+[![Build Status](https://travis-ci.com/fwoerister/ckanext-archiveview.svg?branch=main)](https://travis-ci.com/fwoerister/ckanext-archiveview)
 [![PyPI version](https://badge.fury.io/py/ckanext-archiveview.svg)](https://badge.fury.io/py/ckanext-archiveview)
 [![Supported Python versions](https://pypip.in/py_versions/ckanext-archiveview/badge.svg)](https://pypi.python.org/pypi/ckanext-archiveview/)
 [![Development Status](https://pypip.in/status/ckanext-archiveview/badge.svg)](https://pypi.python.org/pypi/ckanext-archiveview/https://pypi.python.org)

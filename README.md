@@ -1,5 +1,10 @@
 # CKAN Archive Resource View
-A ckan extension that provides a resource view for zipped archives
+<img src="https://raw.githubusercontent.com/fwoerister/ckanext-mongodatastore/master/images/TU_Signet_SW_rgb.png" align="right" width="150px"/>
+
+A ckan extension that provides a resource view for zipped archives. The plugin parses zip files (stored locally or URLs of zip archives) and presents its structure using [jsTree](https://www.jstree.com/) a javascript library to display file tree structures.
+
+The current implementaiton supports `.zip` archives only.
+
 
 ## Requirement
 This CKAN extension is compatible with CKAN 2.9 and requires Python >3.6
